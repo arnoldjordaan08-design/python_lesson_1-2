@@ -1,3 +1,5 @@
 name = "Arnold"
+name = input("What is your name? ")
 age = 19
-print(f"Hello, my name is {name} and I am {age} years old.")
+age = int(input("What is your age? "))
+print("Hello, " + name + "! You are " + str(age) + " years old.")
